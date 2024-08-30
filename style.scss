@@ -1,0 +1,92 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+text-decoration: none;
+list-style: none;
+}
+
+body,html{
+width: 100%;
+height: 100vh;
+ }
+
+
+ .wrapper{
+    width: 100%;
+    height: 100vh;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+    @import url(https://fonts.googleapis.com/css?family=Montserrat+Subrayada:regular,700);
+
+.body {
+  width: 350px; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0 5px 20px;
+  background: #D7CCC8;
+  border-radius: 10px;
+  border: 2px solid #000;
+}
+.results {
+  width: 90%;
+  margin: 20px auto;
+  font-family: Montserrat;
+  text-align: right;
+}
+
+#result {
+background: #8b6960;
+border: 1px solid black;
+border-radius: 4px;
+padding-right: 5px;
+  height: 50px;
+  font-size: 2em;
+}
+
+
+.numbers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.operations, .clears {
+  display: flex;
+  flex-direction: column;
+}
+.operations * {
+  font-size: 1.5em;
+}
+
+.clears * {
+    cursor: pointer;
+  background: #5779c2;
+  color: white;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  width: 50px;
+  aspect-ratio: 1/1;
+  margin: 5px;
+  text-align: center;
+}
+button:active {
+  transform: translateY(2px);
+}
+
+.number, .operation, .equals {
+    cursor: pointer;
+  background: rgba(0, 0, 0,0.5);
+  color: white;
+}
+
+
+
+
+ }
